@@ -344,7 +344,7 @@ export default function App() {
   const shareText = () =>
     `✝️ The WORDle — Today's Daily Devotional\n\n${score.emoji} ${score.title}\n\n${
       isCorrect ? `I got it on clue ${guessedOnClue} of 5!` : "I was humbled by the Word."
-    }\n\nCan you do better, sinner? The Lord is calling you to repent and try:\nhttps://tinyurl.com/thewoooordle`;
+    }\n\nCan you do better, sinner? The Lord is calling you to repent and try:\nhttps://j-r-j-r.github.io/thewoooooordle/`;
 
   const handleTextShare = () => {
     window.open(`sms:?&body=${encodeURIComponent(shareText())}`, "_blank");
