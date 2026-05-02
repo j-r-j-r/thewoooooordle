@@ -375,7 +375,7 @@ export default function App() {
             </svg>
           </div>
           <h1 style={s.title}>The WORDle</h1>
-          <p style={s.subtitle}>A Daily Devotional for the Discerning Mind</p>
+          <p style={s.subtitle}>A 30-Day Devotional Game for the Discerning Mind</p>
           <div style={s.verse}>
             <p style={s.verseText}>
               "Seek ye first the obvious answer, and all clues shall be revealed unto thee —
